@@ -6,7 +6,6 @@ All major browsers on Windows and OSX are supported.
 
 You have to [install the plugin](http://jazz-soft.net/download/) before you can use the JazzMIDIBridge. 
 
-Don't be afraid, it installs in a breeze!
 
 
 
