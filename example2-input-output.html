@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Jazz MIDI Bridge</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        
+        <script type="text/javascript" src="lib/JazzMIDIBridge.js"></script>     
+        <script type="text/javascript" src="lib/MIDIDeviceSelector.js"></script>     
+        <script type="text/javascript" src="js/example2-input-output.js"></script>
+        
+        <link rel="stylesheet" media="screen" href="css/reset.css"/>
+        <link rel="stylesheet" media="screen" href="css/JazzMIDIBridge.css"/>
+    </head>
+    <body>
+        <div id="content">
+            <!-- dropdown menu for selecting a MIDI input -->
+            <select id="inputs"></select>
+
+            <!-- dropdown menu for selecting a MIDI output -->
+            <select id="outputs"></select>
+
+            <!-- incoming MIDI messages get displayed here -->
+            <div id="messages" class="clearfix">MIDI messages:<br/></div>
+        </div>
+    </body>
+</html>
