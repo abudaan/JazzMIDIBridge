@@ -29,3 +29,5 @@ As you can see, you could call MIDIAccess anything you like, but it is recommend
 
 
 In the repo you will find some examples that you can use as a starting point for your own code.
+
+Also check the [wiki](wiki)
