@@ -1,0 +1,1 @@
+Wrapper for the Jazz plugin (http://jazz-soft.net/) that mimics the W3C MIDI proposal of Jussi Kalliokoski.
