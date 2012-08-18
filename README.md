@@ -34,7 +34,7 @@ In the repo you will find some examples that you can use as a starting point for
 * [Use computer keyboard as MIDI keyboard](http://abumarkub.net/jazzmidibridge/example3-computer-keyboard.html)
 * [Select MIDI in- and output and channel and program](http://abumarkub.net/jazzmidibridge/example4-channel-program.html)
 
-Also check the [**WIKI**](https://github.com/abudaan/JazzMIDIBridge/wiki) for documentation.
+Also check the [**Wiki**](https://github.com/abudaan/JazzMIDIBridge/wiki) for documentation.
 
 ***
 
