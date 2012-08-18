@@ -41,7 +41,8 @@ Also check the [Wiki](https://github.com/abudaan/JazzMIDIBridge/wiki) for docume
 Files and folders:
 * css: the css files of the examples
 * js: the javascript code of the examples
-* lib: - the JazzMIDIBridge.js file and its minified version jazzmidibridge-x.y.min.js
+* lib: 
+       - the JazzMIDIBridge.js file and its minified version jazzmidibridge-x.y.min.js
        - JazzMIDIBridge plugins
       
 Some of the examples use plugins, these plugins provide handy MIDI related functionality such as creating dropdown menus for MIDI in- and outputs. More plugins will be added soon. You can write your own plugins as well.
