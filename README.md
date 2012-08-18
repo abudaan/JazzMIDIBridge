@@ -28,6 +28,8 @@ JMB.init(function(MIDIAccess){
 As you can see, you could call MIDIAccess anything you like, but it is recommended to use the 'standard' naming.
 
 
-In the repo you will find some examples that you can use as a starting point for your own code.
+In the repo you will find some examples that you can use as a starting point for your own code. You can check the examples online as well:
 
-Also check the [wiki](https://github.com/abudaan/JazzMIDIBridge/wiki).
+*[Basic usage example](http://abumarkub.net/jazzmidibridge/example1-basic-usage.html)
+
+Also check the [wiki](https://github.com/abudaan/JazzMIDIBridge/wiki) for documentation.
