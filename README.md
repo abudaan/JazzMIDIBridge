@@ -36,3 +36,16 @@ In the repo you will find some examples that you can use as a starting point for
 * [Select MIDI in- and output and channel and program](http://abumarkub.net/jazzmidibridge/example4-channel-program.html)
 
 Also check the [Wiki](https://github.com/abudaan/JazzMIDIBridge/wiki) for documentation.
+
+### files and folders:
+* css: the css files of the examples
+* js: the javascript code of the examples
+* lib: - the JazzMIDIBridge.js file and its minified version jazzmidibridge-x.y.min.js
+       - JazzMIDIBridge plugins
+      
+Some of the examples use plugins, these plugins provide handy MIDI related functionality such as creating dropdown menus for MIDI in- and outputs. More plugins will be added soon. You can write your own plugins as well.
+
+
+- 
+                                                                                                                                    - 
+                                                                                                                                    - 
