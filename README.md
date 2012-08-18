@@ -30,6 +30,9 @@ As you can see, you could call MIDIAccess anything you like, but it is recommend
 
 In the repo you will find some examples that you can use as a starting point for your own code. You can check the examples online as well:
 
-*[Basic usage example](http://abumarkub.net/jazzmidibridge/example1-basic-usage.html)
+* [Basic usage example](http://abumarkub.net/jazzmidibridge/example1-basic-usage.html)
+* [Select MIDI in- and output](http://abumarkub.net/jazzmidibridge/example2-input-output.html)
+* [Use computer keyboard as MIDI keyboard](http://abumarkub.net/jazzmidibridge/example3-computer-keyboard.html)
+* [Select MIDI in- and output and channel and program](http://abumarkub.net/jazzmidibridge/example4-channel-program.html)
 
 Also check the [wiki](https://github.com/abudaan/JazzMIDIBridge/wiki) for documentation.
