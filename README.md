@@ -8,7 +8,6 @@ You have to [install the plugin](http://jazz-soft.net/download/) before you can 
 
 ***
 
-
 The JazzMIDIBridge is a wrapper around a wrapper; the Jazz browser plugin is wrapped in a MIDIAccess object, and the MIDIAccess object  is wrapped in the JazzMIDIBridge object.
 
 The MIDIAccess wrapper is a partial implementation of Jussi Kalliokoski's [W3C proposal]( https://gist.github.com/1752949) for native MIDI support in browsers.
@@ -27,6 +26,7 @@ JMB.init(function(MIDIAccess){
 
 As you can see, you could call MIDIAccess anything you like, but it is recommended to use the 'standard' naming.
 
+***
 
 In the repo you will find some examples that you can use as a starting point for your own code. You can check the examples online as well:
 * [Basic usage example](http://abumarkub.net/jazzmidibridge/example1-basic-usage.html)
