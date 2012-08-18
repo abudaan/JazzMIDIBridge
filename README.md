@@ -19,11 +19,11 @@ The JazzMIDIBridge wrapper can be referenced by the global variable JMB. JMB is 
 
 The MIDIAccess wrapper can be referenced by the local variable that is the return value of the callback of the init() method:
 
-`
+``
 JMB.init(function(MIDIAccess){
 	//your code goes here
 });
-`
+``
 
 As you can see, you could call MIDIAccess anything you like, but it is recommended to use the 'standard' naming.
 
