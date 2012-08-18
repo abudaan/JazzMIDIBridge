@@ -6,10 +6,10 @@ All major browsers on Windows and OSX are supported.
 
 You have to [install the plugin](http://jazz-soft.net/download/) before you can use the JazzMIDIBridge. 
 
+***
 
 
-
-In fact the JazzMIDIBridge is a wrapper around a wrapper; the Jazz browser plugin is wrapped in a MIDIAccess object, and the MIDIAccess object  is wrapped in the JazzMIDIBridge object.
+The JazzMIDIBridge is a wrapper around a wrapper; the Jazz browser plugin is wrapped in a MIDIAccess object, and the MIDIAccess object  is wrapped in the JazzMIDIBridge object.
 
 The MIDIAccess wrapper is a partial implementation of Jussi Kalliokoski's [W3C proposal]( https://gist.github.com/1752949) for native MIDI support in browsers.
 
