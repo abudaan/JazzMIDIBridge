@@ -16,7 +16,7 @@ The JazzMIDIBridge wrapper provides methods that allow you to add MIDI functiona
 
 The JazzMIDIBridge wrapper can be referenced by the global variable [JMB](https://github.com/abudaan/JazzMIDIBridge/wiki/JMB). JMB is like the $ in jQuery.
 
-The [MIDIAccess](https://github.com/abudaan/JazzMIDIBridge/wiki/MIDIAccess) wrapper can be referenced by the local variable that is the return value of the callback of the init() method:
+The MIDIAccess wrapper can be referenced by the local variable that is the return value of the callback of the init() method:
 
 ```
 JMB.init(function(MIDIAccess){
