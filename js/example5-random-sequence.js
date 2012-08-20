@@ -112,7 +112,7 @@ window.addEventListener('load', function() {
                 logMessage("Please select a MIDI output first!",true);
                 return;
             }
-            logMessage(" - - start", clear); 
+            logMessage(" - - start", true); 
             currentNote = 0;
             sequencePosition = 0;
             sendRandomMIDIMessage(MIDIAccess);
