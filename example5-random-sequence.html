@@ -1,0 +1,27 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Jazz MIDI Bridge</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="lib/jazzmidibridge-0.1.min.js"></script>     
+        <script type="text/javascript" src="lib/midideviceselector.plugin.min.js"></script>     
+        <script type="text/javascript" src="js/example5-random-sequence.js"></script>
+        <link rel="stylesheet" media="screen" href="css/reset.css"/>
+        <link rel="stylesheet" media="screen" href="css/JazzMIDIBridge.css"/>
+    </head>
+    <body>
+        <div id="content">
+            <!-- dropdown menu for selecting a MIDI output -->
+            <select id="outputs"></select>
+
+            <!-- button that starts the sequence -->
+            <input type="button" id="start" value="start" />
+
+            <!-- button that stops the sequence -->
+            <input type="button" id="stop" value="stop" />
+
+            <!-- MIDI messages get displayed here -->
+            <div id="messages">Please select a MIDI output<br/></div>
+        </div>
+    </body>
+</html>
