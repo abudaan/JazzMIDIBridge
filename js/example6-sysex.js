@@ -4,7 +4,7 @@
  *  http://abumarkub.net/midibridge/license
  * 
  * 
- *  example of how you to use the new MididOutRaw and MidiOutLong functions of Jazz
+ *  example of how you to use the new MidiOutRaw and MidiOutLong functions of Jazz
  * 
  *  dependecies:
  *  - JazzMIDIBridge.js
@@ -49,7 +49,7 @@ window.addEventListener('load', function() {
 		
 
 	JMB.init(function(MIDIAccess){
-		//the newly added getJazz() method returns the Jazz instance of JMB
+		//the newly added getJazz() method returns the reference to the Jazz plugin
 		Jazz = JMB.getJazz();
 
 		//create dropdown menu for MIDI outputs and add an event listener to the change event

@@ -26,6 +26,18 @@ JMB.init(function(MIDIAccess){
 
 As you can see, you could call MIDIAccess anything you like, but it is recommended to use the 'standard' naming.
 
+If you want call methods directly on the Jazz plugin, you can get the reference to the Jazz plugin by calling the getJazz() method:
+
+```
+var Jazz;
+
+JMB.init(function(MIDIAccess){
+	Jazz = JMB.getJazz();
+	Jazz.MidiOutRaw([0xF0,0x7F,0x7F,0x04,0x01,0x7F,0x33,0xF7]);
+});
+```
+
+
 ***
 
 In the repo you will find some examples that you can use as a starting point for your own code. You can check some of the examples online as well:
@@ -33,6 +45,7 @@ In the repo you will find some examples that you can use as a starting point for
 * [Use computer keyboard as MIDI keyboard](http://abumarkub.net/jazzmidibridge/example3-computer-keyboard.html)
 * [Select MIDI in- and output and channel and program](http://abumarkub.net/jazzmidibridge/example4-channel-program.html)
 * [Generate a random sequence of MIDI events](http://abumarkub.net/jazzmidibridge/example5-random-sequence.html)
+* [Simple tests with Jazz.MidiOutRaw() and Jazz.MidiOutLong()](http://abumarkub.net/jazzmidibridge/example6-sysex.html)
 
 For a complete API reference check the [**Wiki**](https://github.com/abudaan/JazzMIDIBridge/wiki).
 
