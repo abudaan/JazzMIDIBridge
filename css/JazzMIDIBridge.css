@@ -43,6 +43,10 @@ h1{
     overflow: auto;
     clear:left;
 }
+#controls{
+    width:500px;
+    height:60px;
+}
 #last-message{
     height:30px;
     margin:30px 0px;
@@ -105,6 +109,25 @@ select{
     font-family: monospace;
     color: #333333;
     font-size: 13px;
+}
+#pitchbend-container{
+    width: 500px;
+    height: 40px;
+}
+#pitchbend-value{
+    margin-top:3px;
+    float:left;
+}
+#pitchbend-label{
+    margin-top:3px;
+    float:left;
+}
+#pitchbend{
+    float:left;
+    margin-left:10px;
+    margin-right:10px;
+}
+input[type="range"]{
 }
 .device{
     line-height: 1.1em;

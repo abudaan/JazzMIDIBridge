@@ -1,0 +1,29 @@
+<!doctype html>
+<html>
+    <head>
+        <title>Jazz MIDI Bridge</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <script type="text/javascript" src="lib/jazzmidibridge-0.1.1.min.js"></script>     
+        <script type="text/javascript" src="lib/midideviceselector.plugin.min.js"></script>     
+        <script type="text/javascript" src="js/example7-pitchbend.js"></script>
+        <link rel="stylesheet" media="screen" href="css/reset.css"/>
+        <link rel="stylesheet" media="screen" href="css/JazzMIDIBridge.css"/>
+    </head>
+    <body>
+        <div id="content">
+            <!-- dropdown menus for selecting MIDI in and output -->
+            <select id="inputs"></select>
+            <select id="outputs"></select>
+
+            <!-- pitchbend slider -->
+            <div id="pitchbend-container">
+                <div id="pitchbend-label">pitch bend</div>
+                <label><input type="range" name="pitchbend" id="pitchbend" min="0" max="127" />
+                <div id="pitchbend-value"></div>
+            </div>
+ 
+            <!-- MIDI messages get displayed here -->
+            <div id="messages">Please select a MIDI output<br/></div>
+        </div>
+    </body>
+</html>
