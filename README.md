@@ -46,6 +46,7 @@ In the repo you will find some examples that you can use as a starting point for
 * [Select MIDI in- and output and channel and program](http://abumarkub.net/jazzmidibridge/example4-channel-program.html)
 * [Generate a random sequence of MIDI events](http://abumarkub.net/jazzmidibridge/example5-random-sequence.html)
 * [Simple tests with Jazz.MidiOutRaw() and Jazz.MidiOutLong()](http://abumarkub.net/jazzmidibridge/example6-sysex.html)
+* [Pitchbend example](http://abumarkub.net/jazzmidibridge/example7-pitchbend.html)
 
 For a complete API reference check the [**Wiki**](https://github.com/abudaan/JazzMIDIBridge/wiki).
 
