@@ -1,10 +1,10 @@
 /*!
- * copyright 2012 abudaan
+ * copyright 2013 abudaan
  * code licensed under MIT 
  * http://abumarkub.net/midibridge/license
  * 
  * 
- * example of how you can connect MIDI inputs and outputs with MIDIAccess, and how to change the channel and the program
+ * example of how you can control the pitchbend by a html5 slider (Firefox still has no html5 slider)
  * 
  *  dependecies:
  *  - JazzMIDIBridge.js
